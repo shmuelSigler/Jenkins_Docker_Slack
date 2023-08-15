@@ -1,0 +1,36 @@
+
+# Weather Forecast Web Application with DevOps Pipeline
+
+
+## Overview
+Welcome to the Weather Forecast Web Application! This project demonstrates my expertise as a DevOps engineer by combining various technologies to deliver a seamless and automated software development and deployment process.
+
+The Weather Forecast Web Application allows users to retrieve accurate weather forecasts for the next 7 days based on their location input. It utilizes the OpenWeatherMap API to fetch weather data and presents it in an intuitive and user-friendly interface.
+
+![App Screenshot](https://github.com/shmuelSigler/Jenkins_Docker_Slack/blob/main/weather%20app%20screenshot.png?raw=true)
+
+
+## Key Features
+- **Weather Forecast**: Get a 7-day weather forecast for a specified city or country.
+- **Automated Pipeline**: Jenkins orchestrates a fully automated pipeline, from code integration to deployment.
+- **Docker Integration**: The application is containerized using Docker, ensuring consistent deployment across environments.
+- **Slack Integration**: Real-time communication is facilitated through Slack, providing visibility into pipeline status.
+- **Continuous Testing**: Jenkins performs unit tests to ensure the reliability of each deployment.
+- **Seamless Deployment**: Automated deployment to AWS EC2 instances keeps the application up-to-date.
+
+## Project Architecture and Components
+
+![Architecture](https://github.com/shmuelSigler/Jenkins_Docker_Slack/blob/main/architecture.png?raw=true)
+
+- Executed a comprehensive project involving GitLab and Jenkins servers, showcasing my expertise in streamlining development workflows. 
+- Developed and implemented a Jenkins pipeline for the Weather app, effectively integrating remote GitLab repositories. 
+- Demonstrated proficiency in automating the build process by creating Docker images and conducting rigorous unit tests. 
+- Successfully deployed the tested images to Docker Hub, emphasizing my ability to ensure reliable software delivery. 
+- Leveraged Slack integration to facilitate real-time communication and enhance collaboration within the development team. 
+- Skillfully configured Jenkins to provide notifications on pipeline success, showcasing my attention to detail and dedication to delivering quality results. Implemented error handling mechanisms to promptly address any pipeline failures, exhibiting my problem-solving skills and ability to troubleshoot issues efficiently.
+
+
+
+#### Contact
+For any inquiries or questions, please reach out to yakovsig@gmail.com.
+
