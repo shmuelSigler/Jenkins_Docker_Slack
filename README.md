@@ -34,7 +34,7 @@ The Weather Forecast Web Application allows users to retrieve accurate weather f
 #### Contact
 For any inquiries or questions, please reach out to yakovsig@gmail.com.
 
-Run Locally
+## Run Locally
 Clone the project
 
   git clone https://github.com/shmuelSigler/Jenkins_Docker_Slack.git
