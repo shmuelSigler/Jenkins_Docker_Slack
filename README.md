@@ -35,18 +35,25 @@ The Weather Forecast Web Application allows users to retrieve accurate weather f
 For any inquiries or questions, please reach out to yakovsig@gmail.com.
 
 ## Run Locally
+
 Clone the project
 
+```bash
   git clone https://github.com/shmuelSigler/Jenkins_Docker_Slack.git
+```
+
 Go to the project directory
 
+```bash
   cd Jenkins_Docker_Slack
+```
+
 Run docker compose to start Docker containers defined in a Compose file
 
+```bash
   docker compose up -d
+```
 
   ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
