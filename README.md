@@ -5,6 +5,7 @@ Welcome to the Weather Forecast Web Application! This project demonstrates my ex
 
 The Weather Forecast Web Application allows users to retrieve accurate weather forecasts for the next 7 days based on their location input. It utilizes the OpenWeatherMap API to fetch weather data and presents it in an intuitive and user-friendly interface.
 <br/>
+<br/>
 ![App Screenshot](https://github.com/shmuelSigler/Jenkins_Docker_Slack/blob/main/weather%20app%20screenshot.png?raw=true)
 
 ## Key Features
