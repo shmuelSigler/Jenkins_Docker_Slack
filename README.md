@@ -23,8 +23,8 @@ To enhance the performance and reliability of the Weather Forecast Web Applicati
 The NGINX configuration plays a significant role in directing incoming traffic to the appropriate backend servers. In my project, NGINX is set up as a reverse proxy, which means it receives client requests and forwards them to the Gunicorn instances running the Python application. Let's take a closer look at the key components of your NGINX configuration:
 
 - **limit_req_zone and limit_conn_zone**: These directives define rate limiting and connection limiting zones to manage the rate at which clients can access the application. <ins>This helps prevent abuse and ensures fair usage.</ins>
-- **upstream**: The upstream block defines a group of backend servers (Gunicorn instances) that NGINX can direct traffic to. In my case, i've specified two instances (weather_app-app-1 and weather_app-app-2) to distribute the load and ensure high availability.
-- **server**: This block specifies the configuration for the virtual server that listens on port 80. It includes directives to manage rate limiting and connection limiting, as well as the proxy_pass directive, which forwards incoming requests to the backend Gunicorn instances.
+- **upstream**: The upstream block defines a group of backend servers (Gunicorn instances) that NGINX can direct traffic to. In my case, i've specified two instances (weather_app-app-1 and weather_app-app-2) to <ins>distribute the load and ensure high availability.</ins>
+- **server**: This block specifies the configuration for the virtual server that listens on port 80. It includes directives <ins> to manage rate limiting and connection limiting</ins>, as well as the proxy_pass directive, which forwards incoming requests to the backend Gunicorn instances.
 
 
 ## Project Architecture and Components
