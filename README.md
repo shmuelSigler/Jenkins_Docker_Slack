@@ -9,8 +9,6 @@ The Weather Forecast Web Application allows users to retrieve accurate weather f
 
 ![App Screenshot](https://github.com/shmuelSigler/Jenkins_Docker_Slack/blob/main/weather%20app%20screenshot.png?raw=true)
 
-To enhance the performance and reliability of the Weather Forecast Web Application, NGINX and Gunicorn have been integrated into the project. NGINX acts as a reverse proxy server, forwarding requests to Gunicorn, which serves the application. This setup provides benefits such as load balancing, improved security, and better handling of client connections.
-
 ## Key Features
 - **Weather Forecast**: Get a 7-day weather forecast for a specified city or country.
 - **Automated Pipeline**: Jenkins orchestrates a fully automated pipeline, from code integration to deployment.
@@ -18,6 +16,12 @@ To enhance the performance and reliability of the Weather Forecast Web Applicati
 - **Slack Integration**: Real-time communication is facilitated through Slack, providing visibility into pipeline status.
 - **Continuous Testing**: Jenkins performs unit tests to ensure the reliability of each deployment.
 - **Seamless Deployment**: Automated deployment to AWS EC2 instances keeps the application up-to-date.
+
+## NGINX and Gunicorn Integration
+To enhance the performance and reliability of the Weather Forecast Web Application, NGINX and Gunicorn have been integrated into the project. NGINX acts as a reverse proxy server, forwarding requests to Gunicorn, which serves the application. This setup provides benefits such as load balancing, improved security, and better handling of client connections.
+
+### NGINX Configuration
+The NGINX configuration plays a significant role in directing incoming traffic to the appropriate backend servers. In my project, NGINX is set up as a reverse proxy, which means it receives client requests and forwards them to the Gunicorn instances running the Python application. Let's take a closer look at the key components of your NGINX configuration:
 
 ## Project Architecture and Components
 
