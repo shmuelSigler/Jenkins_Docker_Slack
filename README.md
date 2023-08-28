@@ -9,6 +9,7 @@ The Weather Forecast Web Application allows users to retrieve accurate weather f
 
 ![App Screenshot](https://github.com/shmuelSigler/Jenkins_Docker_Slack/blob/main/weather%20app%20screenshot.png?raw=true)
 
+To enhance the performance and reliability of the Weather Forecast Web Application, NGINX and Gunicorn have been integrated into the project. NGINX acts as a reverse proxy server, forwarding requests to Gunicorn, which serves the application. This setup provides benefits such as load balancing, improved security, and better handling of client connections.
 
 ## Key Features
 - **Weather Forecast**: Get a 7-day weather forecast for a specified city or country.
