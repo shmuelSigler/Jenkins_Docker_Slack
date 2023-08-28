@@ -1,12 +1,10 @@
-
 # Weather Forecast Web Application with DevOps Pipeline
-
 
 ## Overview
 Welcome to the Weather Forecast Web Application! This project demonstrates my expertise as a DevOps engineer by combining various technologies to deliver a seamless and automated software development and deployment process.
 
 The Weather Forecast Web Application allows users to retrieve accurate weather forecasts for the next 7 days based on their location input. It utilizes the OpenWeatherMap API to fetch weather data and presents it in an intuitive and user-friendly interface.
-
+<br>
 ![App Screenshot](https://github.com/shmuelSigler/Jenkins_Docker_Slack/blob/main/weather%20app%20screenshot.png?raw=true)
 
 ## Key Features
