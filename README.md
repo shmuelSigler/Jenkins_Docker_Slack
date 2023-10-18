@@ -67,3 +67,7 @@ Run docker compose to start Docker containers defined in a Compose file
 
 To run this project, you will need to add the following environment variables to your .env file
 `API_KEY`
+
+<a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lnviuuso7dnvqyp0pv3l" alt="trackgit-views" />
+</a>
